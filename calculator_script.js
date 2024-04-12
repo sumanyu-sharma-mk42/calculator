@@ -99,7 +99,7 @@ button.addEventListener("click",(e)=>{
             div.textContent = euquation;
             break;
         case "dot":
-            euquation += ".";
+            if(euquation[euquation.length-1]!="+" && euquation[euquation.length-1]!="-" &&euquation[euquation.length-1]!="/"&&euquation[euquation.length-1]!="x" &&euquation[euquation.length-1]!=".") euquation += ".";
             div.textContent = euquation;
             break;
         case "cancel":
@@ -107,19 +107,19 @@ button.addEventListener("click",(e)=>{
             div.textContent = euquation;
             break;
         case "divide":
-            euquation += "/";
+            if(euquation[euquation.length-1]!="+" && euquation[euquation.length-1]!="-" &&euquation[euquation.length-1]!="/"&&euquation[euquation.length-1]!="x" &&euquation[euquation.length-1]!=".") euquation += "/";
             div.textContent = euquation;
             break;
         case "multi":
-            euquation += "x";
+            if(euquation[euquation.length-1]!="+" && euquation[euquation.length-1]!="-" &&euquation[euquation.length-1]!="/"&&euquation[euquation.length-1]!="x" &&euquation[euquation.length-1]!=".") euquation += "x";
             div.textContent = euquation;
             break;
         case "minus":
-            euquation += "-";
+            if(euquation[euquation.length-1]!="+" && euquation[euquation.length-1]!="-" &&euquation[euquation.length-1]!="/"&&euquation[euquation.length-1]!="x" &&euquation[euquation.length-1]!=".") euquation += "-";
             div.textContent = euquation;
             break;
         case "add":
-            euquation += "+";
+            if(euquation[euquation.length-1]!="+" && euquation[euquation.length-1]!="-" &&euquation[euquation.length-1]!="/"&&euquation[euquation.length-1]!="x" &&euquation[euquation.length-1]!=".") euquation += "+";
             div.textContent = euquation;
             break;
         case "equal":
